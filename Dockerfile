@@ -1,4 +1,4 @@
-FROM golang:wheezy
+FROM golang:1.7-wheezy
 
 RUN mkdir -p /go/src/app
 WORKDIR /go/src/app
